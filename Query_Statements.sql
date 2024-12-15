@@ -139,3 +139,11 @@ BEGIN
 					WHERE body_of_water.name = body_of_water_name))));
 END//
 DELIMITER ;
+
+
+#STORED PROCEDURE COMMANDS
+call employeeFish("John","Smith");
+call employeeFish("Jane", "Doe");
+
+call bodyOfWaterFish("Gunnison River");
+call bodyOfWaterFish("Blue Mesa Reservoir");
